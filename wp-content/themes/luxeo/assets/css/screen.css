@@ -1,0 +1,1464 @@
+.screen1 .screen1__left {
+    width: calc(100% - 700px);
+    float: left;
+}
+
+.screen1 .screen1__right {
+    width: 700px;
+    height: 555px;
+    float: left;
+    position: relative;
+}
+
+.screen1 .screen1__video-left {
+    display: none;
+}
+
+.screen1 .screen1__video {
+    float: right;
+    width: 600px;
+    height: 450px;
+    position: relative;
+}
+
+.screen1 .screen1__img-left {
+    display: none;
+    object-fit: cover;
+}
+
+.screen1 .screen1__img {
+    float: right;
+    width: 600px;
+    height: 450px;
+    position: relative;
+    background: rgba(162, 162, 162, 0.15);
+    object-fit: cover;
+    box-shadow: -28px 28px 95px 11px rgba(16, 52, 115, 0.15);
+}
+
+.screen1 .screen1__shadow {
+    width: 309px;
+    height: 342px;
+    bottom: 0;
+    right: 37%;
+}
+
+.screen1 .screen1__description {
+    width: 410px;
+    margin-top: 40px;
+}
+
+
+.screen1 .screen1__button {
+    width: 270px;
+    margin-top: 35px;
+}
+
+.screen2 .screen2__box {
+    width: calc(33% - 20px);
+    margin-right: 30px;
+}
+
+.screen2 .screen2__box:nth-child(3n) {
+    margin-right: 0;
+}
+
+.screen3 .screen3__left,
+.screen3 .screen3__right {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    margin-top: 100px;
+    float: left;
+}
+
+.screen3 .screen3__left {
+    height: 600px;
+}
+
+.screen3 .screen3__shadow {
+    width: 461px;
+    height: 282px;
+    right: 0;
+    bottom: 0;
+}
+
+.screen3 .screen3__bg_blue {
+    position: absolute;
+    display: block;
+    width: 75%;
+    height: 446px;
+    background-color: #144496;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+screen3 .screen3__in-number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.screen3 .screen3__slider-conteiner {
+    width: 570px;
+    height: 460px;
+    overflow: hidden;
+    position: absolute;
+    right: 105px;
+    top: 80px;
+}
+
+.screen3 .screen3__slider {
+    width: 100%;
+    height: 100%;
+}
+
+.screen3 .screen3__slide {
+    min-width: 100%;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    min-height: 460px;
+    height: 460px;
+}
+
+.screen3 .screen3__slide-img {
+    max-width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
+
+.screen3 .screen3__slider-button {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+}
+
+.screen4 .screen4__site-push {
+    width: calc(100% - 200px);
+    margin: 70px 100px 180px 100px;
+    position: relative;
+}
+
+.screen4 .screen4__send-form {
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+    text-align: left;
+    margin-left: calc(50% - 190px);
+    cursor: pointer;
+}
+
+.screen4 .screen4__you-date {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 27px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.screen4 .screen4__shadow {
+    width: 570px;
+    height: 128px;
+    bottom: -80px;
+    left: calc(50% - 285px);
+}
+
+
+.screen5 .screen5__title {
+    max-width: 685px;
+    float: left;
+}
+
+.screen5 .screen5__slider-button {
+    width: 140px;
+    margin-top: 115px;
+    float: right;
+}
+
+.screen5 .screen5__slides {
+    float: left;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.screen5 .screen5__slide {
+    width: calc(33.333% - 20px);
+    min-width: calc(33.333% - 20px);
+    float: left;
+    margin-right: 30px;
+}
+
+.screen5 .screen5__slide:last-child {
+    margin-right: 0
+}
+
+.screen5 .screen5__buttons {
+    margin-top: 65px;
+    float: left;
+    width: 100%;
+}
+
+.screen5 .screen5__button {
+    width: 300px;
+    margin-right: 30px;
+    margin-bottom: 155px;
+}
+
+.screen5 .screen5__button-load {
+    display: none;
+}
+
+.screen6 {
+    padding-top: 150px;
+}
+
+.screen6 .screen6__slider-button {
+    width: 140px;
+    margin-top: 40px;
+    float: right;
+}
+
+.screen6 .screen6__title {
+    max-width: 850px;
+    float: left;
+}
+
+.screen6 .screen6__slides {
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.screen6 .screen6__slide {
+    width: calc(33.333% - 20px);
+    float: left;
+    margin-right: 30px;
+}
+
+.screen6 .screen6__slide:last-child {
+    margin-right: 0
+}
+
+.screen6 .screen6__video-btn {
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+}
+
+.screen6 .screen6__video-btn::after {
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+}
+
+.screen6 .screen6__video-btn::before {
+    top: -16px;
+    bottom: -16px;
+    left: -16px;
+    right: -16px;
+}
+
+.screen7 {
+    padding-bottom: 90px;
+}
+
+.screen7 .screen7__description {
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screen7 .screen7__box {
+    display: flex;
+}
+
+.screen7 .screen7__left,
+.screen7 .screen7__right {
+    width: 50%;
+    float: left;
+    min-height: 595px;
+    position: relative;
+}
+
+.screen7 .screen7__right {
+    background: #144496;
+}
+
+.screen7 .screen7__slide {
+    min-width: 100%;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    min-height: 595px;
+    height: 595px;
+}
+
+.screen7 .screen7__slide-img {
+    object-fit: cover;
+    min-height: 595px;
+    display: block;
+    width: 100%;
+}
+
+.screen7 .screen7__slider-button {
+    position: absolute;
+    top: 0;
+    left: 170px;
+    z-index: 10;
+}
+
+.screen7 .screen7__slider-nav {
+    display: flex;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+
+.screen7 .screen7__nav-btn {
+    width: 120px;
+    height: 80px;
+    box-sizing: border-box;
+    transition: 0.3s ease border;
+}
+
+.screen7 .slider-nav__btn.slider-nav__btn_cur {
+    border-top: 3px solid #103473;
+}
+
+.screen7 .screen7__nav-btn-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.screen7 .screen7__list {
+    margin-top: 110px;
+    list-style: none;
+    width: 500px;
+}
+
+.screen7 .screen7__list-block {
+    left: -30px;
+    position: relative;
+    margin-bottom: 85px;
+}
+
+.screen7 .screen7__list-block {
+    margin-bottom: 45px;
+}
+
+.screen7 .screen7__shadow {
+    width: 300px;
+    height: 100px;
+    left: 20%;
+    bottom: 0;
+}
+
+.screen7 .screen7__img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.screen8 .screen8__bookmark {
+    height: 420px;
+    width: 970px;
+    display: block;
+    margin: auto;
+    margin-bottom: 170px;
+}
+
+.screen8 .screen8__mark {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #eeeeee;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.screen8 .screen8__marks {
+    width: 270px;
+    float: left;
+    max-height: 300px;
+}
+
+.screen8 .screen8__bookmark-content {
+    width: 700px;
+    height: 420px;
+    float: left;
+}
+
+.screen8 .screen8__slide {
+    min-width: 100%;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    min-height: 410px;
+    height: 420px;
+}
+
+.screen8 .screen8__slide-img {
+    object-fit: cover;
+    min-height: 420px;
+    height: 420px;
+    display: block;
+    width: 100%;
+}
+
+.screen8 .screen8__description {
+    width: 760px;
+    margin-left: calc(50% - 380px);
+}
+
+.screen8 .bookmark__mark.bookmark__mark_cur {
+    border-left: 3px solid #103473;
+}
+
+.screen8 .screen8__slider-button {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.screen8 .screen8__btn-mark {
+    width: 270px;
+    height: 60px;
+}
+
+.screen8 .screen8__shadow2 {
+    width: 470px;
+    height: 309px;
+    display: none;
+}
+
+.screen8 .screen8__shadow1 {
+    right: 0;
+    width: 470px;
+    height: 309px;
+    bottom: -80px;
+}
+
+.screen9 .screen9__title {
+    max-width: 850px;
+    float: left;
+}
+
+
+.screen9 .screen9__slider-button {
+    position: relative;
+    width: 140px;
+    top: 100px;
+    float: right;
+}
+
+.screen9 .screen9__slide {
+    min-width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin-right: 30px;
+}
+
+.screen9 .screen9__slide-img {
+    max-width: 270px;
+    max-height: 120px;
+    object-fit: fill;
+}
+
+.screen9 .screen9__slide:last-child {
+    margin-right: 0;
+}
+
+.screen9 .screen9__slides {
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.screen10 .screen10__left {
+    margin-top: 70px;
+    margin-bottom: 60px;
+    width: 495px;
+    float: left;
+    position: relative;
+}
+
+.screen10 .screen10__right {
+    margin-top: 70px;
+    margin-bottom: 60px;
+    width: calc(100% - 495px);
+    float: left;
+    position: relative;
+}
+
+.screen10 .screen10__chart {
+    max-width: 605px;
+    max-height: 403px;
+    position: absolute;
+    right: 0;
+    top: 93px;
+}
+
+.screen10 .screen10__send-form {
+    width: 100%;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.screen10 .screen10__conf-date {
+    margin-top: 25px;
+    color: #b0b0b0;
+    font-family: "DIN Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    float: left;
+}
+
+.screen10 .screen10__shadow2 {
+    width: 201px;
+    height: 122px;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+}
+
+.screen10 .screen10__shadow {
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.screen10 .screen10__timer {
+    width: 370px;
+    margin-top: 40px;
+    margin-left: calc(50% - 185px);
+}
+
+.screen10 .screen10__title-right {
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-left: 60px;
+    display: block;
+    margin-top: 50px;
+}
+
+.screen10 .screen10__text-right {
+    color: #565656;
+    font-family: "DIN Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 60px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.screen11 .screen11__left,
+.screen11 .screen11__right {
+    width: 50%;
+    display: block;
+    position: relative;
+    margin-top: 55px;
+    float: left;
+    margin-bottom: 90px;
+    box-sizing: border-box;
+}
+
+.screen11 .screen11__right {
+    margin-bottom: 0;
+    padding-left: 190px;
+}
+
+.screen11 .screen11__description-title {
+    width: 640px;
+    margin-left: calc(50% - 320px);
+}
+
+.screen11 .screen11__techn {
+    width: 265px;
+    height: 90px;
+    box-sizing: border-box;
+    background: #fff;
+    float: left;
+    margin-right: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-top: 3px solid transparent;
+}
+
+.screen11 .screen11__techn-img {
+    max-width: 100%;
+    max-height: 90px;
+    object-fit: fill;
+}
+
+.screen11 .screen11__techn:nth-child(2n) {
+    margin-right: 0;
+}
+
+.screen11 .screen11__techn:hover {
+    border-top: 3px solid #103473;
+}
+
+.screen11 .screen11__bg-light-blue-left {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.screen11 .screen11__bg-light-blue-left::after {
+    content: "";
+    display: block;
+    width: 55%;
+    position: absolute;
+    background-color: #eff4fe;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.screen11 .screen11__description {
+    position: absolute;
+    padding: 30px 30px;
+    background: #fff;
+    box-shadow: -1px 2px 95px 11px rgba(16, 52, 115, 0.07);
+    display: none;
+}
+
+.screen11__techn:hover .screen11__description {
+    display: block;
+}
+
+.screen11 .screen11__description::after {
+    content: "";
+    display: block;
+    border-top: 7px solid #fff;
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    position: absolute;
+    bottom: -14px;
+    left: calc(50% - 7px);
+}
+
+.screen11 .screen11__list-block {
+    margin-bottom: 65px;
+}
+
+.screen12 .screen12__steps {
+    width: 660px;
+    margin: auto;
+    display: block;
+}
+
+.screen13 .screen13__shadow {
+    width: 770px;
+    height: 150px;
+    position: absolute;
+    bottom: 85px;
+    left: calc(50% - 385px);
+}
+
+
+.screen14 .screen14__description {
+    margin-bottom: 70px;
+}
+
+.screen14 {
+    padding-bottom: 50px;
+}
+
+.screen15 .screen15__advantages {
+    width: 100%;
+    display: flex;
+    float: left;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 80px;
+    list-style: none;
+}
+
+.screen15 .screen15__advantage {
+    width: 25%;
+}
+
+.screen15 .screen15__advantage-img {
+    width: 80px;
+    height: 80px;
+    margin-left: calc(50% - 40px);
+    display: block;
+}
+
+.screen15 .screen15__advantage-title {
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.04px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 50px;
+    margin-top: 20px;
+    letter-spacing: normal;
+}
+
+.screen15 .screen15__button {
+    width: 270px;
+    margin-left: calc(50% - 135px);
+    margin-top: 100px;
+}
+
+.screen15 .screen15__text {
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+    float: left;
+}
+
+.screen16 .screen16__point {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 16px;
+}
+
+.screen16 .screen16__list {
+    width: 830px;
+    margin-left: calc(50% - 415px);
+    margin-top: 90px;
+}
+
+.screen16 .screen16__list-block {
+    margin-top: 45px;
+}
+
+
+.screen17 .screen17__title {
+    max-width: 850px;
+    float: left;
+}
+
+
+.screen17 .screen17__slider-button {
+    position: relative;
+    width: 140px;
+    top: 100px;
+    float: right;
+}
+
+.screen17 .screen17__slides {
+    width: 100%;
+    float: left;
+    margin-top: 55px;
+}
+
+.screen17 .screen17__slider-container {
+    min-width: 100%;
+}
+
+.screen17 .screen17__slide {
+    background-color: #ffffff;
+    min-width: 100%;
+    border-right: 1px solid rgba(16, 52, 115, 0.4);
+}
+
+.screen17 .screen17__slide-title {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #103473;
+    color: #ffffff;
+    font-family: "DIN Pro";
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 70px;
+    line-height: 20px;
+    letter-spacing: 1.7px;
+}
+
+.screen17 .screen17__slide-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 60px 70px 40px 70px;
+}
+
+.screen17 .screen17__slide-block {
+    width: 29%;
+    box-sizing: border-box;
+}
+
+.screen17 .screen17__title-block {
+    width: 100%;
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.04px;
+}
+
+.screen17 .screen17__line {
+    margin-left: 0;
+}
+
+.screen17 .screen17__slide-text {
+    margin-bottom: 15px;
+}
+
+.screen17 .screen17__slide-logo {
+    margin-top: 30px;
+}
+
+.screen17 .screen17__slide-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.screen17 .screen17__slide-links {
+    width: 100%;
+    box-sizing: border-box;
+    height: 90px;
+    padding: 40px 70px;
+    border-top: 1px solid rgba(16, 52, 115, 0.07);
+}
+
+.screen17 .screen17__slide-link {
+    display: inline-block;
+    padding-right: 25px;
+    position: relative;
+    color: #2cbcff;
+    font-family: "DIN Pro - Black";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 1.54px;
+    text-decoration: none;
+    margin-right: 60px;
+    float: left;
+}
+
+.screen17 .screen17__slide-link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    background-image: url(../img/arrow-to-right1.png);
+    width: 13px;
+    height: 9px;
+    top: 1px;
+}
+
+.screen17 .screen17__slide-link:hover::after {
+    animation: move-arrow 0.75s linear infinite;
+}
+
+.screen17 .screen17__button {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    width: 300px;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+.screen17 .screen17__button:first-child {
+    margin-left: calc(50% - 315px);
+}
+
+.screen18 .screen18__shadow {
+    position: absolute;
+    width: 350px;
+    height: 380px;
+    right: calc(50% - 505px);
+    bottom: 80px;
+}
+
+.screen19 .screen19__secondary-name {
+    width: 550px;
+    margin-left: calc(50% - 275px);
+}
+
+.screen19 .screen19__left {
+    width: 670px;
+    display: inline-block;
+    position: relative;
+    height: 550px;
+    float: left;
+    margin-top: 80px;
+}
+
+.screen19 .screen19__right {
+    padding-left: 130px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: calc(100% - 670px);
+    float: left;
+    margin-top: 80px;
+}
+
+.screen19 .screen19__img {
+    width: 570px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    object-fit: cover;
+    box-shadow: -1px 1px 95px 11px rgba(16, 52, 115, 0.15);
+}
+
+.screen19 .screen19__text {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 370px;
+    bottom: 80px;
+    box-sizing: border-box;
+    background-color: #103473;
+    color: #ffffff;
+    font-family: "DIN Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30.75px;
+    padding: 55px 60px;
+}
+
+.screen19 .screen19__shadow {
+    right: -38px;
+    width: 256px;
+    height: 256px;
+    bottom: -42px;
+}
+
+.screen19 .screen19__title-big {
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+    padding-right: 90px;
+}
+
+.screen19 .screen19__title {
+    margin-bottom: 20px;
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.04px;
+}
+
+.screen19 .screen19__text-right {
+    margin-bottom: 45px;
+    box-sizing: border-box;
+    padding-right: 65px;
+}
+
+.screen19 .screen19__button {
+    width: 260px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.screen19 .screen19__list-text {
+    width: calc(100% - 40px);
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.screen19 .screen19__right {
+    padding-left: 70px;
+    margin-top: 110px;
+}
+
+.screen20 .screen20__list {
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screen20 .screen20__list-block {
+    width: 33.3333%;
+    padding: 15px;
+    margin-bottom: 60px;
+    padding-bottom: 65px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 52, 115, 0.07);
+}
+
+.screen20 .screen20__list-block:not(:nth-last-child(n+4)) {
+    border: none;
+}
+
+.screen20 .screen20__point {
+    margin-left: calc(50% - 20px);
+    margin-bottom: 50px;
+}
+
+.screen20 .screen20__list-container {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.screen20 .screen20__list-text {
+    width: 100%;
+    margin-bottom: 37px;
+}
+
+.screen21 .screen21__secondary-name {
+    color: #fff;
+}
+
+.screen21 {
+    background-color: #144496;
+}
+
+.screen21 .screen21__left {
+    width: 690px;
+    height: 370px;
+    background-image: url(../img/clay-MBP.png);
+    margin-top: 60px;
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    padding: 24px 83px 35px 83px;
+    position: relative;
+    float: left;
+}
+
+.screen21 .screen21__video {
+    width: 100%;
+    height: 100%;
+}
+
+.screen21 .screen21__shadow {
+    width: 370px;
+    height: 260px;
+    position: absolute;
+    bottom: -50px;
+    right: 17px;
+}
+
+
+.screen21 .screen21__right {
+    width: calc(100% - 690px);
+    box-sizing: border-box;
+    padding-left: 30px;
+    float: left;
+    margin-top: 60px;
+}
+
+.screen21 .screen21__right-title {
+    color: #ffffff;
+    font-family: "DIN Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.01px;
+    margin-top: 30px;
+}
+
+.screen21 .screen21__txt1 {
+    color: #ffffff;
+    font-family: "DIN Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    padding-right: 20px;
+    margin-top: 35px;
+}
+
+.screen21 .screen21__txt2 {
+    color: #ffffff;
+    font-family: "DIN Pro";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+.screen22 .screen22__left {
+    width: calc(100% - 690px);
+    margin-top: 70px;
+    float: left;
+}
+
+.screen22 .screen22__right {
+    width: 690px;
+    margin-top: 70px;
+    float: left;
+    position: relative;
+    height: 470px;
+}
+
+.screen22 .screen22__left-title {
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.04px;
+    margin-top: 15px;
+}
+
+.screen22 .screen22__txt {
+    color: #565656;
+    font-family: "DIN Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.03px;
+    margin-top: 35px;
+}
+
+.screen22 .screen22_plansh {
+    position: absolute;
+    right: 0;
+}
+
+.screen22 .screen22__shadow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 524px;
+    height: 322px;
+}
+
+.screen22 .screen22__button {
+    width: 300px;
+    margin-top: 36px;
+}
+
+.screen23 .screen23__description {
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    margin-bottom: 65px;
+}
+
+.screen23 .screen23__secondary-name {
+    width: 880px;
+    margin-left: calc(50% - 440px);
+}
+
+.screen23 .screen23__slider-conteiner {
+    width: 970px;
+    margin-left: calc(50% - 485px);
+    position: relative;
+    height: 515px;
+    margin-bottom: 90px;
+    box-shadow: -1px 2px 95px 11px rgba(16, 52, 115, 0.15);
+}
+
+.screen23 .screen23__slider-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.screen23 .screen23__slide {
+    min-width: 100%;
+    min-height: 515px;
+}
+
+.screen23 .screen23__slide-img {
+    width: 100%;
+    height: 515px;
+    display: block;
+    object-fit: cover;
+}
+
+.screen23 .screen23__fon {
+    width: 55%;
+    height: 480px;
+    background-color: #eff4fe;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.screen23 .screen23__shadow {
+    width: 300px;
+    height: 478px;
+    right: 0;
+    position: absolute;
+    display: block;
+    bottom: -90px;
+}
+
+
+.screen24 .screen24__title {
+    max-width: 685px;
+    float: left;
+}
+
+.screen24 .screen24__slider-button {
+    width: 140px;
+    margin-top: 115px;
+    float: right;
+}
+
+.screen24 .screen24__slides {
+    float: left;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.screen24 .screen24__slide {
+    float: left;
+    margin-right: 30px;
+    min-width: calc(25% - 22.5px);
+    width: calc(25% - 22.5px);
+    margin-right: 30px;
+    margin-bottom: 130px;
+}
+
+.screen24 .screen24__slide:last-child {
+    margin-right: 0
+}
+
+.screen24 .screen24__buttons {
+    margin-top: 65px;
+    float: left;
+    width: 100%;
+}
+
+.screen24 .screen24__button {
+    width: 300px;
+    margin-right: 30px;
+    margin-bottom: 155px;
+}
+
+.screen24 .screen24__button-load {
+    display: none;
+}
+
+.screen24 .screen24__title {
+    max-width: 900px;
+}
+
+.screen25 .screen25__title {
+    max-width: 850px;
+    float: left;
+}
+
+
+.screen25 .screen25__slider-button {
+    position: relative;
+    width: 140px;
+    top: 100px;
+    float: right;
+}
+
+.screen25 .screen25__slide {
+    min-width: 270px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin-right: 30px;
+    position: relative;
+    box-shadow: -1px 2px 68px 8px rgba(16, 52, 115, 0.1);
+    border-top: 3px solid transparent;
+}
+
+.screen25 .screen25__slide-img {
+    max-width: 270px;
+    max-height: 100px;
+    object-fit: fill;
+}
+
+.screen25 .screen25__slide:last-child {
+    margin-right: 0;
+}
+
+.screen25 .screen25__slide:nth-child(5) {
+    margin-left: 10000px;
+}
+
+.screen25 .screen25__slides {
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.screen25 .screen25__slide-text {
+    position: absolute;
+    left: -30px;
+    right: -30px;
+    background: #fff;
+    box-shadow: -1px 2px 95px 11px rgba(16, 52, 115, 0.07);
+    padding: 30px 35px 40px 35px;
+    color: #565656;
+    font-family: "DIN Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    display: none;
+}
+
+.screen25 .screen25__slide-text::after {
+    content: "";
+    border-top: 7px solid #fff;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    bottom: -14px;
+    display: block;
+    left: calc(50% - 7px);
+    z-index: 1;
+}
+
+.screen25 .screen25__slide:hover {
+    border-top: 3px solid #103473;
+}
+
+.screen25 .screen25__slide:hover .screen25__slide-text {
+    display: block;
+}
+
+.screen25 .screen25__slider-container,
+.screen25 .screen25__slides {
+    overflow: visible;
+}
+
+.screen26 .screen26__left {
+    width: 670px;
+    float: left;
+    position: relative;
+    margin-top: 90px;
+    height: 540px;
+    object-fit: cover;
+}
+
+.screen26 .screen26__right {
+    width: calc(100% - 670px);
+    float: left;
+    position: relative;
+    margin-top: 90px;
+    padding-left: 55px;
+    box-sizing: border-box;
+}
+
+.screen26 .screen26__img {
+    position: absolute;
+    right: 0;
+    width: 570px;
+    height: 540px;
+    object-fit: cover;
+}
+
+.screen26 .screen26__bg_blue {
+    position: absolute;
+    display: block;
+    width: 40%;
+    height: 478px;
+    background-color: #144496;
+    z-index: -1;
+    left: 0;
+    top: 305px;
+}
+
+.screen26 .screen26__point {
+    float: left;
+    margin-left: 50px;
+}
+
+.screen26 .screen26__right-title {
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.screen26 .screen26__list-block {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+.screen26 .screen26__list-text {
+    width: 100%;
+}
+
+.screen26 .screen26__link {
+    color: #2cbcff;
+    font-family: "DIN Pro - Black";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1.54px;
+    text-decoration: none;
+    position: relative;
+    padding-right: 35px;
+    float: left;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 85px;
+}
+
+
+.screen26 .screen26__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    background-image: url(../img/arrow-to-right1.png);
+    width: 13px;
+    height: 9px;
+    top: 10px;
+}
+
+.screen26 .screen26__link:hover::after {
+    animation: move-arrow 0.75s linear infinite;
+}
+
+.screen26 .screen26__shadow {
+    width: 256px;
+    height: 256px;
+    display: block;
+    bottom: -40px;
+    right: -40px;
+}

@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/dinpro-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DIN Pro - Black';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/DINPro-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DIN Pro - Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/DINPro-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DIN Pro - Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/DINPro-light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot');
+    src: url('../fonts/icomoon.eot') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-star:before {
+    content: "\e92d";
+}
+
+.icon-arrow-pointing-to-right1:before {
+    content: "\e92e";
+}
+
+.icon-arrow-pointing-to-right2:before {
+    content: "\e92f";
+}
+
+.icon-done-tick:before {
+    content: "\e93c";
+}
+
+.icon-play:before {
+    content: "\e940";
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DIN Pro";
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen h2 {
+    color: #103473;
+    font-family: 'DIN Pro - Bold';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.screen h3 {
+    color: #2ebcff;
+    font-family: "DIN Pro";
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+}
+
+.screen h4 {
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.04px;
+}
+
+.screen h5 {
+    color: #ffffff;
+    font-family: "DIN Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.04px;
+}
+
+.screen h6 {
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.04px;
+}
+
+hr {
+    width: 20px;
+    height: 1px;
+    background-color: #41c3ff;
+    display: block;
+    margin: 20px 37px;
+    border: none;
+}
+
+label,
+.screen p {
+    color: #565656;
+    font-family: "DIN Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+label {
+    font-size: 16px;
+}
+
+p > b {
+    font-family: "DIN Pro - Bold";
+    font-weight: 700;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 15px 20px 0;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #565656;
+    font-family: "DIN Pro";
+    background: transparent;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+textarea {
+    border: 1px solid #e5e5e5;
+}
+
+textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #b0b0b0;
+    font-family: "DIN Pro";
+}
+
+.form .form__input-conteiner {
+    position: relative;
+}
+
+.form .form__input-ico {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    color: #dbdbdb;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form .form__input.form__input_active-valid:valid ~ .form__input-ico {
+    color: #2cbcff;
+}
+
+.form .form__input.form__input_active-valid:invalid ~ .form__input-ico {
+    color: #e05a5a;
+}
+
+.form .form__label {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #b0b0b0;
+    font-family: "DIN Pro";
+    padding: 20px 15px 20px 0px;
+    box-sizing: border-box;
+    user-select: none;
+    display: block;
+    transition: 0.15s ease all;
+    cursor: text;
+}
+
+.form .form__label.form__label_error {
+    color: #e05a5a;
+    display: none;
+}
+
+.form .form__input.form__input_active-valid:invalid ~ .form__label {
+    display: none;
+}
+
+.form .form__input.form__input_active-valid:invalid {
+    border-color: #e05a5a;
+}
+
+.form .form__input.form__input_active-valid:invalid ~ .form__label.form__label_error {
+    display: block;
+}
+
+.form .form__label.form__label_important::after {
+    content: "*";
+    color: #2cbcff;
+}
+
+.form .form__label.form__label_hide {
+    display: none;
+}
+
+.form .form__check-conteiner {
+    display: inline-block;
+    position: relative;
+}
+
+.form .form__check {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+}
+
+.form .form__check + .form__label-check {
+    padding-left: 25px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.form .form__check + .form__label-check::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.form .form__check:checked + .form__label-check::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    box-sizing: border-box;
+    background-color: #2cbcff;
+    display: block;
+    position: absolute;
+    left: 4px;
+    bottom: 8px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container {
+        max-width: 740px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+
+    h3 {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 34px;
+        margin-top: 35px;
+    }
+
+}

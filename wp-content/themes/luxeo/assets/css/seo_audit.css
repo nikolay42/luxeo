@@ -1,0 +1,150 @@
+.screen1 .screen1__secondary-name {
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.screen1 .screen1__description {
+    width: 100%;
+}
+
+.screen1 .screen1__shadow {
+    bottom: 15px;
+}
+
+.screen6 .screen6__video-btn.video__button {
+    width: 65px;
+    height: 65px;
+    bottom: -32px;
+    position: absolute;
+    line-height: 65px;
+}
+
+.screen6 .screen6__ico-play {
+    line-height: 65px;
+    width: 65px;
+    height: 65px;
+    display: block;
+}
+
+.screen6 .screen6__video {
+    margin-bottom: 32px;
+}
+
+.screen6 .screen6__slide-title.big-slide__title {
+    margin-top: 35px;
+    padding: 0 55px;
+    min-height: auto;
+}
+
+.screen6 .screen6__slide-description.big-slide__description {
+    margin: 0 55px 0 55px;
+}
+
+.screen6 .screen6__slide-line.big-slide__line {
+    margin-top: 20px;
+}
+
+.screen16 .screen16__list-block {
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+.screen17 .screen17__title {
+    width: 670px;
+}
+
+.screen18 .screen18__description {
+    width: 750px;
+    margin-left: calc(50% - 375px);
+    margin-bottom: 70px;
+}
+
+.screen16 .screen16__point {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .screen1 .screen1__img {
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .screen1 .screen1__secondary-name {
+        padding-right: 0;
+    }
+
+    .screen1 .screen1__description {
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+    .screen1 .screen1__left {
+        margin-bottom: 100px;
+    }
+
+    .screen1 .screen1__shadow {
+        bottom: 80px;
+        right: 230px;
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .screen6 .screen6__title {
+        width: 100%;
+    }
+
+    .screen18 .screen18__description {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .screen1 .screen1__shadow {
+        display: none;
+    }
+
+    .screen1 .screen1__img-left {
+        margin-left: calc(50% - 250px);
+    }
+
+    .screen1 .screen1__description {
+        margin: 0;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .screen1 .screen1__left {
+        margin-bottom: 30px;
+    }
+
+    .screen16 .screen16__list {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .screen1 .screen1__img-left {
+        width: 100%;
+        margin-left: 0;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .screen1 .screen1__img-left {
+        width: 100%;
+        margin-left: 0;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .screen1 .screen1__img-left {
+        width: 100%;
+        margin-left: 0;
+        height: 180px;
+    }
+}

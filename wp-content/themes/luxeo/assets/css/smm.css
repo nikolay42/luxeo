@@ -1,0 +1,368 @@
+.screen1 .screen1__text {
+    margin-top: 35px;
+}
+
+.screen19 .screen19__text b {
+    color: #ffffff;
+    font-family: "DIN Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.04px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.screen19 .screen19__button {
+    margin-top: 30px;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+
+.screen19 .screen19__right {
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+.screen19 .screen19__text-right {
+    padding-right: 0;
+}
+
+.screen2 .screen2__box-container {
+    padding: 0 110px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.screen2 .screen2__secondary-name {
+    font-size: 43px;
+}
+
+.screen2 .screen2__box:nth-child(3n),
+.screen2 .screen2__box {
+    margin-right: 10px;
+    width: calc(50% - 10px);
+    margin-top: 50px;
+}
+
+.screen2 .screen2__box:nth-child(2n) {
+    margin-right: 0;
+}
+
+.screen2 .screen2__box:nth-child(3n),
+.screen2 .screen2__box {
+    width: calc(50% - 45px);
+    margin-right: 0;
+}
+
+.screen2 .screen2__box:nth-child(2n+1) {
+    margin-right: 90px;
+}
+
+.screen5 .screen5__title {
+    max-width: 850px;
+}
+
+
+.screen7 {
+    padding-bottom: 0;
+}
+
+
+.screen7 .screen7__secondary-name {
+    margin-bottom: 80px;
+    width: 580px;
+    margin-left: calc(50% - 290px);
+}
+
+.screen7 .screen7__button {
+    width: 300px;
+    margin-left: 145px;
+    margin-top: 40px;
+}
+
+.screen7 .screen7__list {
+    margin-top: 69px;
+}
+
+.screen7 .screen7__list-num {
+    margin-top: 20px;
+}
+
+.screen7 .list .list__link {
+    margin-left: 145px;
+    margin-top: 30px;
+    float: left;
+    margin-bottom: 55px;
+    line-height: 11px;
+}
+
+
+.screen20 .screen20__list-container {
+    padding: 0 50px;
+}
+
+.screen22 {
+    padding-top: 0;
+}
+
+.screen22 .screen22__txt2 {
+    color: #565656;
+    font-size: 17px;
+    font-family: "DIN Pro - Bold";
+    font-weight: 700;
+    line-height: 25.03px;
+    margin-top: 35px;
+}
+
+.screen22.screen.screen_blue-right::after {
+    top: 260px;
+}
+
+.screen23 .screen23__secondary-name {
+    margin-bottom: 70px;
+}
+
+.screen24 .screen24__slide {
+    margin-bottom: 0;
+}
+
+.screen25 .screen25__slider-button {
+    top: 50px;
+}
+
+.screen25 {
+    background: #eff4fe;
+    overflow-x: hidden;
+}
+
+.screen25 .screen25__slider-button {
+    top: 50px;
+}
+
+.screen6 .screen6__video-btn.video__button {
+    width: 65px;
+    height: 65px;
+    bottom: -32px;
+    position: absolute;
+    line-height: 65px;
+}
+
+.screen6 .screen6__ico-play {
+    line-height: 65px;
+    width: 65px;
+    height: 65px;
+    display: block;
+}
+
+.screen6 .screen6__video {
+    margin-bottom: 32px;
+}
+
+.screen6 .screen6__slide-title.big-slide__title {
+    margin-top: 25px;
+    padding: 0 55px;
+    min-height: auto;
+}
+
+.screen6 .screen6__slide-description.big-slide__description {
+    margin: 0 55px 0 55px;
+}
+
+.screen6 .screen6__slide-line.big-slide__line {
+    margin-top: 20px;
+}
+
+.screen10 .screen10__right {
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-right: 170px;
+}
+
+.screen10 .screen10__title-right {
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    padding: 0;
+}
+
+.screen10 .screen10__text-right1 {
+    color: #565656;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: "DIN Pro - Bold";
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.screen10 .screen10__text-right2 {
+    color: #565656;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: "DIN Pro";
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.screen10 .screen10__line {
+    margin-left: 0;
+    width: 32px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.screen10 .screen10__ico {
+    width: 80px;
+    height: 80px;
+}
+
+.screen10 .screen10__title-right {
+    margin-top: 30px;
+}
+
+.screen22 .screen22__secondary-name{
+    width: 900px;
+    margin-left: calc(50% - 450px);
+}
+
+.screen22 .screen22__shadow{
+    width: 235px;
+    height: 312px;
+    top: -45px;
+    bottom: auto;
+}
+
+.screen24 .screen24__slides{
+    margin-bottom: 40px;
+}
+
+.screen10 .screen10__bid{
+    margin-left: 100px;
+}
+
+.screen10 .screen10__left{
+    width: 560px;
+}
+
+.screen10 .screen10__right{
+    width: calc(100% - 560px);
+}
+
+@media screen and (max-width: 1200px) {
+    .screen10 .screen10__right {
+        padding-right: 0px;
+    }
+
+    .screen24 .screen24__slides {
+        margin-bottom: 40px;
+    }
+
+    .screen19 .screen19__right {
+        padding-left: 60px;
+    }
+
+    .screen1 .screen1__img {
+        width: 400px;
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .screen7 .screen7__button {
+        margin-left: calc(50% - 150px);
+    }
+
+    .screen7 .screen7__secondary-name {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+
+    .screen2 .screen2__box-container {
+        padding: 0;
+    }
+
+    .screen20 .screen20__list-container {
+        padding: 0;
+    }
+
+    .screen22.screen.screen_blue-right::after {
+        display: none;
+    }
+
+    .screen10 .screen10__right {
+        padding-left: 0;
+    }
+
+    .screen10 .screen10__ico {
+        margin-left: calc(50% - 40px);
+    }
+
+    .screen10 .screen10__line {
+        margin-left: calc(50% - 16px);
+    }
+
+    .screen10 .screen10__text-right2,
+    .screen10 .screen10__text-right1,
+    .screen10 .screen10__title-right {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .screen10 .screen10__right {
+        display: block;
+    }
+
+    .screen2 .screen2__box:nth-child(2n+1),
+    .screen2 .screen2__box:nth-child(3n),
+    .screen2 .screen2__box {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .screen1 .screen1__img-left {
+        width: 100%;
+    }
+
+    .screen10 .screen10__timer {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .timer .timer__name {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .screen19 .screen19__right {
+        padding: 0;
+    }
+
+    .screen19 .screen19__text {
+        height: auto;
+        float: left;
+    }
+
+    .screen19 .screen19__button {
+        float: left;
+    }
+
+    .screen1 .screen1__text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .screen7 .screen7__button {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+}

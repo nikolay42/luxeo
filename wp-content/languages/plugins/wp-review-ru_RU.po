@@ -1,0 +1,328 @@
+# Translation of Plugins - WP Review - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - WP Review - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-12 18:51:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WP Review - Stable (latest release)\n"
+
+#: admin/options.php:249
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/metaboxes.php:353
+msgid "Enabled"
+msgstr "Включено"
+
+#: admin/metaboxes.php:349
+msgid "Disabled"
+msgstr "Выключено"
+
+#: admin/metaboxes.php:267 admin/options.php:164
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: admin/metaboxes.php:245
+msgid "Custom Colors"
+msgstr "Настройка цветов"
+
+#: admin/metaboxes.php:188 admin/metaboxes.php:198 admin/metaboxes.php:207
+#: admin/options.php:205 admin/options.php:213
+msgid "Delete"
+msgstr "Удалить"
+
+#: admin/options.php:229
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: includes/functions.php:256
+msgid "votes"
+msgstr "голосов"
+
+#: includes/widget.php:53
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: filter-list.php:41
+msgid "Price"
+msgstr "Цена"
+
+#: admin/metaboxes.php:94
+msgid "Review Type"
+msgstr "Тип отзыва"
+
+#: admin/metaboxes.php:96
+msgid "No Review"
+msgstr "Нет отзывов"
+
+#: admin/metaboxes.php:220
+msgid "Total"
+msgstr "Всего"
+
+#: admin/metaboxes.php:171
+msgid "Star (1-5)"
+msgstr "Звезд (1-5)"
+
+#. Author URI of the plugin/theme
+msgid "http://mythemeshop.com/"
+msgstr "http://mythemeshop.com/"
+
+#. Author of the plugin/theme
+msgid "MyThemesShop"
+msgstr "MyThemesShop"
+
+#. Plugin URI of the plugin/theme
+msgid "http://mythemeshop.com/plugins/wp-review/"
+msgstr "http://mythemeshop.com/plugins/wp-review/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Review"
+msgstr "WP Review"
+
+#: includes/widget.php:94
+msgid "Allow pagination"
+msgstr "Разрешить пагинацию"
+
+#: includes/widget.php:82
+msgid "Review type:"
+msgstr "Тип отзыва:"
+
+#: includes/widget.php:15
+msgid "WP Review Widget"
+msgstr "Виджет WP Review"
+
+#: filter-list.php:34
+msgid "Enable Reviews"
+msgstr "Включить отзывы"
+
+#: admin/metaboxes.php:272 admin/options.php:169
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: admin/metaboxes.php:257 admin/options.php:154
+msgid "Font Color"
+msgstr "Цвет шрифта"
+
+#: includes/functions.php:379
+msgid "10"
+msgstr "10"
+
+#: includes/widget.php:123
+msgid "Show date"
+msgstr "Показывать дату"
+
+#: includes/widget.php:480
+msgid "Next &raquo;"
+msgstr "Следующая &raquo;"
+
+#: includes/widget.php:477
+msgid "&laquo; Previous"
+msgstr "&laquo; Предыдущая"
+
+#: admin/metaboxes.php:252 admin/options.php:149
+msgid "Review Color"
+msgstr "Цвет отзыва"
+
+#: admin/metaboxes.php:234 admin/options.php:134
+msgid "Before Content"
+msgstr "Перед содержимым"
+
+#: admin/metaboxes.php:233 admin/options.php:133
+msgid "After Content"
+msgstr "После содержимого"
+
+#: includes/widget.php:113
+msgid "Thumbnail size:"
+msgstr "Размер миниатюры:"
+
+#: includes/widget.php:106
+msgid "Title length (words):"
+msgstr "Длина заголовка (слова):"
+
+#: includes/widget.php:99
+msgid "Number of reviews to show:"
+msgstr "Количество отображаемых отзывов:"
+
+#: includes/widget.php:115
+msgid "Small"
+msgstr "Маленькая"
+
+#: includes/widget.php:116
+msgid "Large"
+msgstr "Большая"
+
+#: includes/widget.php:138
+msgid "Tab Order"
+msgstr "Порядок вкладок"
+
+#: includes/widget.php:138
+msgid "Tab Titles"
+msgstr "Заголовки вкладок"
+
+#: includes/functions.php:235
+msgid "Click on the stars to rate!"
+msgstr "Щёлкните на звезды, чтобы оценить!"
+
+#: admin/metaboxes.php:331
+msgid "Hide Description &amp; Total Rating"
+msgstr "Скрыть описание и общий рейтинг"
+
+#: admin/metaboxes.php:262 admin/options.php:159
+msgid "Heading Background Color"
+msgstr "Цвет фона заголовка"
+
+#: includes/widget.php:39
+msgid "Editor's choice"
+msgstr "Выбор редактора"
+
+#: includes/functions.php:255
+msgid "User Rating"
+msgstr "Пользовательский рейтинг"
+
+#: admin/options.php:64
+msgid "WP Review Settings"
+msgstr "Настройки WP Review"
+
+#: admin/metaboxes.php:241
+msgid "Copy &amp; paste this shortcode in the content."
+msgstr "Скопируйте и вставьте этот шорткод в содержимое."
+
+#: admin/options.php:222
+msgid "Add default feature"
+msgstr "Добавить возможность по умолчанию"
+
+#: admin/options.php:181
+msgid "Default features"
+msgstr "Возможности по умолчанию"
+
+#: admin/metaboxes.php:216
+msgid "Add another"
+msgstr "Добавить ещё"
+
+#: admin/metaboxes.php:170
+msgid "Feature Name"
+msgstr "Название особенности"
+
+#: filter-list.php:41
+msgid "Audio"
+msgstr "Аудио"
+
+#: includes/functions.php:263
+msgid "Sending"
+msgstr "Отправка"
+
+#: admin/options.php:142
+msgid "Copy &amp; paste this shortcode in the post content."
+msgstr "Скопируйте и вставьте этот шорткод в содержимое записи."
+
+#: includes/widget.php:84
+msgid "Any"
+msgstr "Любой"
+
+#: includes/widget.php:57
+msgid "Select Tabs"
+msgstr "Выберите вкладки"
+
+#: admin/options.php:123
+msgid "The current theme provides default settings for the plugin."
+msgstr "В текущей теме заданы настройки по умолчанию для плагина."
+
+#: admin/metaboxes.php:225
+msgid "Custom Location"
+msgstr "Пользовательское расположение"
+
+#: admin/metaboxes.php:231 admin/options.php:131
+msgid "Review Location"
+msgstr "Расположение отзыва"
+
+#: includes/widget.php:128
+msgid "Reviews on Custom tab:"
+msgstr "Отзывы в пользовательской вкладке:"
+
+#: admin/metaboxes.php:235 admin/options.php:135
+msgid "Custom (use shortcode)"
+msgstr "Произвольно (используется шорткод)"
+
+#: includes/widget.php:74 includes/widget.php:156 includes/widget.php:176
+msgid "Custom"
+msgstr "Произвольные"
+
+#: includes/widget.php:39 includes/widget.php:66 includes/widget.php:148
+#: includes/widget.php:168
+msgid "Recent"
+msgstr "Последние"
+
+#: includes/widget.php:39 includes/widget.php:70 includes/widget.php:152
+#: includes/widget.php:172
+msgid "Most Voted"
+msgstr "Наиболее оцененные"
+
+#: includes/widget.php:39 includes/widget.php:62 includes/widget.php:144
+#: includes/widget.php:164
+msgid "Top Rated"
+msgstr "По рейтингу"
+
+#: includes/widget.php:13
+msgid "Display Reviews in tabbed format."
+msgstr "Показывает отзывы в формате вкладок."
+
+#: includes/functions.php:637
+msgid "<p>Create Reviews Easily & Rank Higher In Search Engines - <a target=\"_blank\" href=\"https://mythemeshop.com/plugins/wp-review-pro/?utm_source=WP+Review&utm_medium=Notification+Link&utm_content=WP+Review+Pro+LP&utm_campaign=WordPressOrg\"><strong>WP Review Pro Plugin</strong></a></p><a class=\"notice-dismiss\" href=\"%1$s\"></a>"
+msgstr "<p>Легко создавайте отзывы и получайте высокий рейтинг в поисковых системах — <a target=\"_blank\" href=\"https://mythemeshop.com/plugins/wp-review-pro/?utm_source=WP+Review&utm_medium=Notification+Link&utm_content=WP+Review+Pro+LP&utm_campaign=WordPressOrg\"><strong>плагин WP Review Pro</strong></a></p><a class=\"notice-dismiss\" href=\"%1$s\"></a>"
+
+#: admin/metaboxes.php:308 includes/functions.php:49
+msgid "Summary"
+msgstr "Суммарно"
+
+#: filter-list.php:41
+msgid "Visual"
+msgstr "Визуальный"
+
+#: filter-list.php:41
+msgid "UX"
+msgstr "UX"
+
+#: admin/options.php:125
+msgid "Set to theme defaults"
+msgstr "Использовать настройки темы по умолчанию"
+
+#: admin/options.php:181
+msgid "Default features are set by a filter function. Remove it to change."
+msgstr "Особенности по умолчанию заданы с помощью функции фильтра. Удалите его, чтобы изменить."
+
+#: admin/metaboxes.php:66
+msgid "User Reviews"
+msgstr "Отзывы пользователя"
+
+#: admin/metaboxes.php:48 admin/metaboxes.php:293
+msgid "Review Heading"
+msgstr "Заголовок отзыва"
+
+#: admin/metaboxes.php:57
+msgid "Review Description"
+msgstr "Описание отзыва"
+
+#: admin/metaboxes.php:90 admin/options.php:31 includes/widget.php:87
+msgid "Percentage"
+msgstr "Проценты"
+
+#: admin/metaboxes.php:90 admin/options.php:31 includes/widget.php:86
+msgid "Point"
+msgstr "Баллы"
+
+#: admin/metaboxes.php:90 admin/options.php:31 includes/widget.php:85
+msgid "Star"
+msgstr "Звёзды"
+
+#: admin/metaboxes.php:30
+msgid "Review"
+msgstr "Отзыв"
+
+#: admin/metaboxes.php:39
+msgid "Review Item"
+msgstr "Элементы отзыва"

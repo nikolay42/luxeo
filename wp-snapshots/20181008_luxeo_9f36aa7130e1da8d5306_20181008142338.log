@@ -1,0 +1,119 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 08.10.2018 14:24
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.48
+WORDPRESS:	4.9.8
+PHP INFO:	7.0.21 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (1536M default) 
+MEMORY STACK: 12MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:14 | filtered:0 | create:14 
+FILTERED: [] 
+SQL CREATED: 20181008_luxeo_9f36aa7130e1da8d5306_20181008142338_database.sql 
+SQL FILE SIZE: 694.73KB (711401) 
+SQL FILE TIME: 2018-10-08 14:24:02 
+SQL RUNTIME: 0.68 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  D:/OSPanel/domains/luxeo.site 
+ARCHIVE FILE: 20181008_luxeo_9f36aa7130e1da8d5306_20181008142338_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	129.89MB 
+STATS:	Dirs 314 | Files 2,590 
+SQL ADDED: 20181008_luxeo_9f36aa7130e1da8d5306_20181008142338_database.sql 
+
+WARNING: Unable to zip files: 
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/10.Æèðàôêà.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/13.Âñå äëÿ íåìîâëÿò.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/14.Êàïèòîøêà.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/15.Ìèð èãð.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/19.Ðàéñêèé.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/25.Êëÿìðà.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/26.Ñòèë ñèòè.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/3.Ñîëíöå.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/33.Íàéêðàùèé ëîìáàðä.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/36.Ëàêîìùèê.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/44.Áðåíä îïòèê.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/47.Àãóíà.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/48.ÕèìÝëåìåíò.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/51.ÑâèòÌîëîäè.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/52.Êàðàò.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/57.Ïëåìÿ.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/60.Îáåäíàíè ìàéáóòíèì.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/61.Ì1.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/72.Øâèäêà Ãîòèâî÷êà.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/logo/75.6Ýíåðãèé.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/photo-1521020773588-3b28297b1e70_êîïèÿ.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/ppc/Íàñòðîéêà.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/ppc/Íèêàêîé íàâÿç÷èâîñòè.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/ppc/Ðàçìåùåíèå áåñïëàòíî.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/ppc/Öåëåâàÿ àóäèòîðèÿ.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/smm/Íàëàäèòü êîíòàêò.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/smm/Ïîâûñèòü ëîÿëüíîñòü.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/smm/Ñîçäàòü ñïðîñ.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/smm/Óëó÷øèòü ðåïóòàöèþ.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/ãðàôèê1.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/ãðàôèê2.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/ãðàôèê3.png]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/Íàëàäèòü êîíòàêò.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/Ïîâûñèòü ëîÿëüíîñòü.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/Ñîçäàòü ñïðîñ.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/Óëó÷øèòü ðåïóòàöèþ.svg]
+FILE: [D:/OSPanel/domains/luxeo.site/wp-content/themes/luxeo/assets/img/Ôèãóðà_4_êîïèÿ.png]
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2867
+    [filename] => D:\OSPanel\domains\luxeo.site\wp-snapshots\tmp\20181008_luxeo_9f36aa7130e1da8d5306_20181008142338_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 97.23MB 
+ARCHIVE RUNTIME: 50.02 sec. 
+MEMORY STACK: 14MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preparing for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [D:/OSPanel/domains/luxeo.site/wp-snapshots/tmp/20181008_luxeo_9f36aa7130e1da8d5306_20181008142338_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 694.73KB 
+Installer File: 474.11KB 
+Archive File: 97.23MB  
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 64.90 sec.
+PEAK PHP MEMORY USED: 14MB
+DONE PROCESSING => 20181008_luxeo 08.10.2018 14:25
+ 

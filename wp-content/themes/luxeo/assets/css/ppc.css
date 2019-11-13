@@ -1,0 +1,383 @@
+.screen1 .screen1__text {
+    margin-top: 35px;
+}
+
+.screen19 .screen19__left {
+    width: 470px;
+    height: 370px;
+}
+
+.screen19 .screen19__img {
+    width: 470px;
+    height: 370px;
+}
+
+.screen19 .screen19__right {
+    width: calc(100% - 470px);
+    padding-left: 130px;
+    padding-right: 70px;
+    margin-top: 0;
+    margin-top: 60px;
+}
+
+.screen19 .screen19__list-text {
+    margin-left: 0;
+}
+
+.screen2 .screen2__box-container {
+    padding: 0 110px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.screen2 .screen2__secondary-name {
+    font-size: 43px;
+}
+
+.screen2 .screen2__box:nth-child(3n),
+.screen2 .screen2__box {
+    margin-right: 10px;
+    width: calc(50% - 10px);
+    margin-top: 50px;
+}
+
+.screen2 .screen2__box:nth-child(2n) {
+    margin-right: 0;
+}
+
+.screen5 .screen5__title {
+    max-width: 850px;
+}
+
+.screen20 .screen20__secondary-name {
+    letter-spacing: -0.1px;
+
+}
+
+.screen20 .screen20__list-container {
+    padding: 0 40px;
+}
+
+.screen23 .screen23__slider-conteiner {
+    margin-top: 85px;
+}
+
+.screen23 {
+    padding-top: 0;
+}
+
+.screen23 .screen23__fon {
+    bottom: -70px;
+}
+
+.screen24 .screen24__title {
+    width: 700px;
+}
+
+.screen7 .screen7__decription1 {
+    width: 990px;
+    margin-left: calc(50% - 495px);
+    text-align: center;
+    color: #103473;
+    font-size: 19px;
+    line-height: 28px;
+    font-family: "DIN Pro - Bold";
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.screen7 .screen7__decription2 {
+    width: 1030px;
+    margin-left: calc(50% - 515px);
+    margin-top: 30px;
+    font-size: 19px;
+    line-height: 28px;
+    font-family: "DIN Pro - Light";
+    font-weight: 300;
+    color: #565656;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.screen7 .screen7__list {
+    width: 600px;
+}
+
+.screen7 .screen7__button {
+    width: 300px;
+    margin-bottom: 50px;
+    left: 115px;
+}
+
+.screen7 {
+    padding-bottom: 0px;
+}
+
+.screen25 {
+    background: #eff4fe;
+    overflow-x: hidden;
+}
+
+.screen25 .screen25__slider-button {
+    top: 50px;
+}
+
+.screen10 .screen10__right {
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-right: 170px;
+}
+
+.screen10 .screen10__title-right {
+    color: #103473;
+    font-family: "DIN Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    padding: 0;
+}
+
+.screen10 .screen10__text-right1 {
+    color: #565656;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: "DIN Pro - Bold";
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.screen10 .screen10__text-right2 {
+    color: #565656;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: "DIN Pro";
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.screen6 .screen6__video-btn.video__button {
+    width: 65px;
+    height: 65px;
+    bottom: -32px;
+    position: absolute;
+    line-height: 65px;
+}
+
+.screen6 .screen6__ico-play {
+    line-height: 65px;
+    width: 65px;
+    height: 65px;
+    display: block;
+}
+
+.screen6 .screen6__video {
+    margin-bottom: 32px;
+}
+
+.screen6 .screen6__slide-title.big-slide__title {
+    margin-top: 25px;
+    padding: 0 55px;
+    min-height: auto;
+}
+
+.screen6 .screen6__slide-description.big-slide__description {
+    margin: 0 55px 0 55px;
+}
+
+.screen6 .screen6__slide-line.big-slide__line {
+    margin-top: 20px;
+}
+
+.screen19 .screen19__secondary-name {
+    width: 100%;
+    margin-left: 0;
+}
+
+.screen26 .screen26__left {
+    width: 620px;
+}
+
+.screen26 .screen26__right {
+    width: calc(100% - 620px);
+}
+
+.screen26 .screen26__point {
+    margin-left: 0px;
+}
+
+.screen24 {
+    padding-top: 150px;
+}
+
+.screen7 {
+    padding-top: 0px;
+}
+
+.screen10 .screen10__bid {
+    margin-left: 100px;
+}
+
+.screen10 .screen10__left {
+    width: 560px;
+}
+
+.screen10 .screen10__right {
+    width: calc(100% - 560px);
+}
+
+@media screen and (max-width: 1200px) {
+    .screen10 .screen10__right {
+        padding-right: 0px;
+    }
+
+    .screen7 .screen7__list {
+        width: 100%;
+    }
+
+    .screen7 .screen7__decription2,
+    .screen7 .screen7__decription1 {
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+        margin-left: 0;
+    }
+
+    .screen24 .screen24__slide {
+        margin-bottom: 30px;
+    }
+
+    .screen26 .screen26__right {
+        width: 100%;
+    }
+
+    .screen19 .screen19__img {
+        width: 100% !important;
+    }
+
+    .screen1 .screen1__img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .screen19 .screen19__left {
+        height: 370px !important;
+        width: 100%;
+    }
+
+    .screen2 .screen2__box-container {
+        padding: 0;
+    }
+
+    .screen2 .screen2__box {
+        width: 50% !important;
+        margin-right: 0 !important;
+    }
+
+    .screen7::before {
+        top: auto !important;
+        height: 1500px;
+    }
+
+    .screen10 .screen10__right {
+        padding-left: 0;
+    }
+
+    .screen24 .screen24__title {
+        width: 100%;
+    }
+
+    .screen19 .screen19__right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .screen7 {
+        padding-bottom: 0 !important;
+    }
+
+    .screen26 .screen26__list-block {
+        flex-wrap: wrap;
+    }
+
+    .screen26 .screen26__right {
+        padding-left: 0;
+    }
+
+    .screen26 .screen26__link {
+        display: none;
+    }
+
+    .screen26 .screen26__right-title {
+        text-align: center;
+    }
+
+    .screen2 .screen2__box-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .screen2 .screen2__box:nth-child(3n),
+    .screen2 .screen2__box {
+        margin-top: 0;
+        width: 100% !important;
+    }
+
+    .screen19 .screen19__right {
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .screen1 .screen1__img-left {
+        width: 100% !important;
+    }
+
+    .screen1 .screen1__text {
+        text-align: center;
+    }
+
+    .screen26 .screen26__img {
+        position: relative;
+        width: 100%;
+    }
+
+    .screen26 .screen26__bg_blue,
+    .screen26 .screen26__shadow {
+        display: none;
+    }
+
+    .screen26 .screen26__left {
+        width: 100%;
+    }
+
+    .screen26 .screen26__left,
+    .screen26 .screen26__img {
+        height: 300px;
+    }
+
+    .screen7 .screen7__button {
+        width: 280px;
+        margin-left: calc(50% - 140px);
+        left: 0;
+    }
+
+    .screen20 .screen20__list-container {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .screen7::before {
+        top: 900px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .screen23 .screen23__secondary-name {
+        font-size: 25px !important;
+    }
+
+}
